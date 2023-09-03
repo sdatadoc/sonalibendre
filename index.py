@@ -107,6 +107,10 @@ def home():
 
     return jsonify(messages)
 
+@app.route('/umesh')
+def umesh():
+    print("hello SONA")
+
 if __name__ == '__main__':
     app.run()
 
