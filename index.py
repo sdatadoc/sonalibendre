@@ -109,7 +109,7 @@ def home():
 
 @app.route('/umesh')
 def sona():
-    print("hello SONA")
+    return "hello SONA"
 
 if __name__ == '__main__':
     app.run()
