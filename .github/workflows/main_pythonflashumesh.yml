@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Pythonflashumesh'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BBAFBD7DF1BF4CA4AC4740A924F1297B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B573FDCD196F4EC081F392CF73B16EC6 }}
