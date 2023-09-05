@@ -9,10 +9,10 @@ cnxn = None
 cursor = None
 
 
-host="umeshsqldb.mysql.database.azure.com"
-user="rootumesh"
+host="mysqlforaitest.mysql.database.azure.com"
+user="aiuser"
 password="123qweASD"
-database = "umeshdb"
+database = "seltestdb"
 messages = []
 
 # host = os.environ.get('HOST')
