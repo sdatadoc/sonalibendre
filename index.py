@@ -9,9 +9,9 @@ cnxn = None
 cursor = None
 
 
-host="mysqlforaitest.mysql.database.azure.com"
-user="aiuser"
-password="123qweASD"
+host = "mysqlforaitest.mysql.database.azure.com"
+user = "aiuser"
+password = "123qweASD"
 database = "seltestdb"
 messages = []
 
