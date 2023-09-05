@@ -9,16 +9,16 @@ cnxn = None
 cursor = None
 
 
-host="umeshsqldb.mysql.database.azure.com"
-user="rootumesh"
-password="123qweASD"
-database = "umeshdb"
+# host="umeshsqldb.mysql.database.azure.com"
+# user="rootumesh"
+# password="123qweASD"
+# database = "umeshdb"
 messages = []
 
-# host = os.environ.get('HOST')
-# database = os.environ.get('DATABASE')
-# user = os.environ.get('USER')
-# password = os.environ.get('PASSWORD')
+host = os.environ.get('HOST')
+database = os.environ.get('DATABASE')
+user = os.environ.get('USER')
+password = os.environ.get('PASSWORD')
 
 def Connect():
     try:
